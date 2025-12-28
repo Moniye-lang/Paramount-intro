@@ -44,7 +44,7 @@ export default function App() {
           md:text-xl
           opacity-80
         ">
-          Coming soon at Elewuro
+          Coming soon at Elewuro,Akobo,Ibadan.
         </p>
       </div>
     </div>
