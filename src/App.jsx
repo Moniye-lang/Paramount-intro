@@ -1,0 +1,52 @@
+export default function App() {
+  return (
+    <div className="relative min-h-screen bg-[url('/par2.avif')] bg-cover bg-center">
+      
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/60"></div>
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-white text-center">
+
+        {/* Title */}
+        <h1 className="
+          font-extrabold tracking-wide
+          text-5xl
+          sm:text-6xl
+          md:text-7xl
+          lg:text-8xl
+          xl:text-9xl
+        ">
+          Paramount Place
+        </h1>
+
+        {/* Features */}
+        <ul className="
+          mt-8 space-y-3
+          text-[25px]
+          sm:text-2xl
+          md:text-3xl
+          lg:text-4xl
+          list-disc list-inside
+        ">
+          <li>Hotel</li>
+          <li>Swimming Pool</li>
+          <li>Lounge</li>
+          <li>Gym</li>
+          <li>Restaurant</li>
+        </ul>
+
+        {/* Footer text */}
+        <p className="
+          mt-10 uppercase tracking-widest
+          text-base
+          sm:text-lg
+          md:text-xl
+          opacity-80
+        ">
+          Coming soon at Elewuro
+        </p>
+      </div>
+    </div>
+  );
+}
