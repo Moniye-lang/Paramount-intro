@@ -1,9 +1,9 @@
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-[url('/par2.avif')] bg-cover bg-center">
+    <div className="relative min-h-screen bg-[url('/par3.jpeg')] bg-cover bg-center">
       
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 text-white text-center">
